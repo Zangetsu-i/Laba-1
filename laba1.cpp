@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-int PERIMETR (int length, int width)
+int PERIMETR (int length, int width)//периметр
 {
     return 2*(length+width);
 }
