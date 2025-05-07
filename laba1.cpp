@@ -21,8 +21,16 @@ int main()
     int length,width;
     cout<<"Введите длину прямоугольника: "<<endl;
     cin>>length;
+    if (length<=0) {
+        cout<< "Ошибка" << endl;
+        return 1;
+    }
     cout<<"Введите ширину прямоугольника: "<<endl;
     cin>>width;
+    if (width<=0) {
+        cout<< "Ошибка" << endl;
+        return 1;
+    }
     cout<<"Периметр прямоугольника: "<<endl;
     cout<<PERIMETR(length,width)<<endl;
     cout<<"Площадь прямоугольника: "<<endl;
